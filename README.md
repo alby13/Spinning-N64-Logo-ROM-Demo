@@ -34,20 +34,11 @@ Interactive 3D homebrew demo of the classic multicolor **Nintendo 64** logo mark
 | **B** | Reverse spin direction |
 | **Z** | Show / hide the status + control lines |
 
-## Project layout
+<br>
 
-```
-n64-logo-demo/
-  Makefile
-  README.md
-  TOOLCHAIN.md
-  src/main.c
-  assets/n64logo.glb      # Sketchfab CC-BY-4.0 N64 logo
-  assets/envmap.png       # spherical env map for chrome mode
-```
+## Files
 
-
-The Filt: `n64_logo_demo.z64`
+Main File: `n64_logo_demo.z64`
 
 But wait, there's more. 
 
@@ -55,7 +46,7 @@ Also created is `n64_logo_demo.n64` which has the data in reverse.
 
 <br>
 
-### Run
+### Play
 
 Tested on Ares, should work on real hardware / flashcart.
 
